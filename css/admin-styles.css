@@ -1,0 +1,416 @@
+	/* CSS Document */
+	.wpha_folders{
+		float:left;
+		width:68%;
+		background-color:#FFF;
+		/*border:1px solid #333;*/
+	}
+
+	.wpha_loader{
+
+		left: 25px;
+		top: 10px;
+	}
+
+	.wpha_modal {
+		display: block; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		left: 0;
+		top: 0;
+		width: 100vw; /* Full width */
+		height: 100vh; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+
+	.wpha_modal .modal_content {
+		background-color: #fefefe;
+		margin: 35vh auto; /* 15% from the top and centered */
+		padding: 20px;
+		border: 1px solid #888;
+		width: max-content; /* Could be more or less, depending on screen size */
+	}
+
+
+/* CSS Document */
+	li.current a[href="options-general.php?page=wpha"],
+	li.current:hover a[href="options-general.php?page=wpha"]{
+		background: url('../img/folder.png') no-repeat !important;
+		background-position: 11px 7px !important;
+		padding-left: 30px !important;
+		background-color: rgba(255,255,255,0.3) !important;
+		padding-bottom: 8px !important;
+	}
+	li.current:hover a[href="options-general.php?page=wpha"]{
+		background-color: rgba(255,255,255,0.4) !important;
+	}
+
+
+
+
+	.wpha_log{
+		width:32%;
+		border:1px solid #666;
+		padding:10px;
+		background-color: rgba(0,0,0,0.9);
+		color:#fff;
+		float:left;
+		min-height:400px;
+		overflow-y:auto;
+		overflow-x: hidden;
+		/* display:none; */
+	}
+	.wpha_log ul{
+	}
+	.wpha_log ul li{
+	}
+	.wpha_log ul li .fa-check{
+		display:none;
+	}
+	.wpha_log ul li.selected .fa-check{
+		display:block;
+		float:right;
+		color:#444243;
+	}
+	.wpha_log .btn.btn-warning,
+	.wpha_log .bg-warning{
+		background-color:#444243 !important;
+		color:#fff;
+	}
+	.wpha_log .btn.btn-warning{
+		border:1px solid #444243;
+	}
+	.wpha_in_action .wpha-nav{
+		width: 100%;
+	}
+
+	.wpha_log ul li.premium-features,
+	.wpha_log ul li.promotions,
+	.wpha_log ul li.admin-features,
+	.wpha_log ul li.developer-features {
+		border-top: 1px solid #444243;
+		margin: 60px 0 40px;
+	}
+	.wpha_log ul li.premium-features:after,
+	.wpha_log ul li.promotions:after,
+	.wpha_log ul li.admin-features:after,
+	.wpha_log ul li.developer-features:after {
+		content: "Layout Settings";
+		background-color: #444243;
+		color: #fff;
+		font-size: 12px;
+		padding: 0px 12px 2px;
+		float: right;
+		
+	}
+	.wpha_log ul li.promotions:after {
+		content: "More Plugins";
+	}
+	.wpha_log ul li.admin-features:after {
+		content: "Settings Page";
+	}		
+	.wpha_log ul li.developer-features:after{
+		content: "Advanced Settings";
+	}
+	.wpha_log ul li input[type="color"] {
+		padding: 0;
+		cursor: pointer;
+		position: relative;
+		top: 4px;
+		border: 0;
+		border-radius: 10px;
+		height: 18px;
+		width: 18px;
+		margin: 0 10px 0 0;
+	}
+
+	.wpha-options ul li a{
+		float:right;
+		font-size:12px;
+		color:#444243;
+		text-decoration:none;
+		position:relative;
+		top:4px;
+	}
+	.wpha-options ul li label{
+		width:100%;
+	}
+	.wpha-options ul li a:hover{
+		text-decoration:underline;
+	}
+
+	.wpha-wrapper .hide{
+
+		display: none;
+
+	}
+
+	.wpha-wrapper .nav-tab{
+
+		cursor: pointer;
+
+	}
+	.wpha-wrapper .nav-tab:hover{
+		text-decoration:none;
+	}
+
+
+
+	.wpha-wrapper {
+
+	}
+
+	.wpha_include_ids_select .ss-option{
+		display: none;
+	}
+
+	.wpha_load_modal{
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 999999999;
+	}
+	
+	.wpha-wrapper .nav-tab.nav-tab-active{
+		border-bottom: 1px solid #f00;
+	}
+	
+	.wpha-wrapper .other_section{
+	}
+	.wpha-wrapper .other_section input[type="color"]{
+		width:130px;
+		padding:0;
+		height:30px;
+		cursor:pointer;
+	}
+
+	
+	
+	ul.bullet-example {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -42px;
+		width: 14px;
+	}
+
+	.wpha-humburger-demo{
+
+		float: right;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		border: 1px transparent;
+		background: black;
+		position: relative;
+		text-align: center;
+		box-shadow: -10px 10px 15px #0202024a;
+		margin: 54px 100px 0 0;
+
+
+
+	}
+
+
+	.wpha-humburger-demo .fa-bars
+	{
+
+
+		position: absolute;
+		top: 30%;
+		color: #ffffff;
+		font-size: 40px;
+		left: 33px;
+
+
+	}
+
+
+
+	.wpha-menu-item-demo{
+
+		padding: 20px;
+		float: right;
+		width: 300px;
+		height: auto;
+		border: 1px transparent;
+		background: transparent;
+		position: relative;
+		padding: 20px;
+		box-shadow: -10px 10px 15px #0202024a;
+
+
+	}
+
+
+	.wpha-menu-item-demo ul{
+
+		list-style: revert;
+        padding: revert;
+
+
+	}
+
+
+
+	.wpha-menu-item-demo ul li{
+		
+		position: relative;
+		color: white;
+
+	}
+
+
+	
+	.wpha-menu-item-demo ul li .svg-inline--fa{
+
+		position: absolute;
+		left: -23px;
+		top: 4px;
+
+	}
+
+	.wpha_img_bullet {
+		cursor: pointer;
+		width: 32px;
+		height: 32px;
+		background-color: rgba(0,0,0,0.1);
+		padding: 4px;
+		border: 1px solid rgba(0,0,0,0.5);
+		position: relative;
+		top: -2px;
+	}
+
+	.wpha-menu-item-demo ul li img{
+
+
+		position: absolute;
+		left: -25px;
+		top: 1px;
+		width: 20px;
+		height: 20px;
+
+	}
+
+	.wpha_img_recomend_string{
+		position: relative;
+		top: -20px;
+	}
+	
+	#wpha_customization_form .form-group b{
+		font-size:10px;
+	}
+	
+	ul.wpha_config_menu{
+	}
+	
+	
+	
+	
+	ul.wpha_config_menu li ul{
+		
+		padding-left: 1rem;
+		display: none;
+	
+	}
+	
+	ul.wpha_config_menu li{
+	
+		padding: 0.2rem 0;
+	
+	
+	}
+	
+	.wpha_config_men_container{
+	
+		position: relative;
+	}
+	
+	
+	.wpha_config_men_container .spinner-border{
+	
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: none;
+	}
+		
+		
+	.wpha_background_img_selection{
+	
+		width: 32px;
+		height: 32px;
+	}
+	
+	.wpha_reset_single_hover{
+	
+		cursor: pointer;
+		opacity: 0.3;
+	}
+	
+	.wpha_reset_single_hover:hover{
+	
+		color: #007bff ;
+		opacity: 1;
+	}
+	.wpha_config_men_container > div > h5{
+		cursor:pointer;
+	}
+	.wpha_config_men_container > div > ul > li span.input_wrapper{
+		float:right;
+	}
+	.wpha_config_men_container > div > ul > li span.input_wrapper input[type="color"] {
+		cursor: pointer;
+		position: relative;
+		top: 5px;
+		width: 24px;
+		padding: 0;
+		border-radius: 2px;
+		margin: 0 20px 0 0;
+	}
+	.wpha_config_men_container > div > ul > li span.input_wrapper .wpha_background_img_selection {
+		width: 32px;
+		height: 32px;
+		background-color: rgba(0,0,0,0.08);
+		padding: 1px;
+		cursor: pointer;
+		text-align:center;
+		display:inline-block;		
+	}	
+	.wpha_config_men_container > div > ul > li span.input_wrapper .fa-image {
+		color:#FCA523;
+		font-size:26px;
+		margin: 2px 0 0 0;
+	}
+	.wpha_config_men_container > div > ul > li span.input_wrapper .fa-font{
+		color:#999;
+		margin:0 10px;
+	}
+	.wpha_config_men_container > div > ul > li ul{
+		clear:both;
+	}
+	#wpha_customization_form .form-group .fa-redo{
+		cursor:pointer;
+		font-size:12px;
+		color:#999;
+	}
+	.wpha-hover-demo {
+		margin: 0 auto;
+		display: none;
+		border: 1px solid rgba(0,0,0,0.5);
+		border-radius: 3px;
+		text-align: center;
+		position: relative;
+		min-width: 200px;
+		min-height: 100px;
+		background-size: 100% 100%;
+		max-width: 400px;
+	}
+	.wpha-hover-demo a {
+		cursor: pointer;
+		font-size: 16px;
+		padding: 10px 26px;
+		margin: 20px auto;
+		width: 50%;
+		display: block;
+	}
